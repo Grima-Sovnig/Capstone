@@ -1,0 +1,17 @@
+/**********************************************************************************************************************
+*                                                                                                                     *
+*   Modules.txt                                                                                                       *
+*   Authors: Robert B. Wilson, Alex Baker, Jordan Phillips, Gabriel Snider, Steven Dorsey, Yoshinori Agari            *
+*   The purpose of this file is to explain the use case of all external modules used in SFTPPipeline.                 *
+*                                                                                                                     *
+***********************************************************************************************************************/
+
+
+1). PyQt5
+        This module is the GUI framework in which the SFTPPipeline UI was developed.
+
+2). MySQL Connector
+        This is a self contained python driver for communicating with MySQL servers.
+
+3). Hashlib
+        This module contains crpytographic and hashing functions that are used in the application.

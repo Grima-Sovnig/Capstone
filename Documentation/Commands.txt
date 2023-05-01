@@ -1,0 +1,24 @@
+/**********************************************************************************************************************
+*                                                                                                                     *
+*   Commands.txt                                                                                                      *
+*   Authors: Robert B. Wilson, Alex Baker, Jordan Phillips, Gabriel Snider, Steven Dorsey, Yoshinori Agari            *
+*   The purpose of this file is to explain commands used SFTPPipeline                                                 *
+*       -> this includes commands for both compilation of source code, and understood command line parameters.        *
+*                                                                                                                     *
+***********************************************************************************************************************/
+
+
+Command Line Parameters
+_______________________________________________________________________________________________________________________
+
+1) Convert .ui files to .py files -> This command can be used to convert .ui files created in QTDesigner to .py files
+that can be used as views in the SFTPPipeline application. 
+
+pyuic5 -x example.ui -o example.py 
+
+pyinstaller --add-data "views;views" --add-data "assets;assets" --onefile SFTPPipeline.py
+
+
+
+Compilation Commands
+_______________________________________________________________________________________________________________________
